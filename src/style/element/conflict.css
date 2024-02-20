@@ -1,0 +1,16 @@
+/*解决因样式冲突导致按钮透明*/
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: none ; /* 1 */
+  background-color: none ; /* 2 */
+  background-image: none; /* 2 */
+}
+/*覆盖默认主题色*/
+:root {
+  --el-color-primary: #0D6EFD;
+}
+.el-notification__group {
+  width: 100%;
+}

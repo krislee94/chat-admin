@@ -1,0 +1,162 @@
+@import './base.css';
+
+#app {
+  font-weight: normal;
+}
+
+.mt-4 {
+  margin-top: 0 !important;
+}
+
+.color-upload-text {
+  font-size: 0.875rem;
+  color: #0d6efd;
+  font-weight: 500;
+}
+
+.a-color {
+  text-decoration: none;
+  color: #0d6efd;
+  transition: 0.4s;
+  font-size: 0.875rem;
+}
+
+.j-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.j-row-end {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.j-cloumn {
+  display: flex;
+  flex-direction: column;
+}
+.j-column {
+  display: flex;
+  flex-direction: column;
+}
+.j-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.j-row-between {
+  justify-content: space-between;
+}
+.j-row {
+  display: flex;
+  flex-direction: row;
+}
+.j-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.default-header-img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--xr-min-border-radius);
+}
+.default-header-img-max {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+.base-content {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 -1px 5px 0 rgba(0, 0, 0, 0.1);
+  padding: 1.125rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+.row {
+  flex-direction: row;
+}
+.column {
+  flex-direction: column;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+.overhide {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.default-list-height {
+  height: 88vh;
+}
+.border-light {
+  border: 1px solid #bdc3c7;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.left-btn {
+  width: 2.5rem;
+  height: 1.8rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+.right-btn {
+  width: 2.5rem;
+  height: 1.8rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2c71f4;
+  margin-left: 1rem;
+}
+
+.box-redo {
+  padding: 0.3125rem 0.3125rem 0.2rem 0.3125rem;
+  border: 1px solid #c2c6ce;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.blue-box {
+  padding: 0.3125rem 0.3125rem 0.2rem 0.3125rem;
+  background: #2c71f4;
+  border-radius: 4px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+:deep(.el-notification__group) {
+  width: 100% !important;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    /* place-items: center; */
+    background-color: #fff;
+  }
+}
